@@ -1,4 +1,4 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true
-})
+module.exports = {
+  publicPath: '/tunespoir-website/'  // Update this to your repository name
+};
+
